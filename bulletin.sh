@@ -15,9 +15,6 @@ echo "Running tests..."
 npm run test
 
 
-# Start the application
-echo "Starting the application..."
-npm run dev
 
 # Check if the npm install command was successful
 if [ $? -eq 0 ]; then
