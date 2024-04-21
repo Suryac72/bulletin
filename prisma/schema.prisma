@@ -1,0 +1,18 @@
+generator client {
+  provider        = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Bulletin {
+  id           String   @id @default(uuid())
+  title        String
+  description  String
+  image        String?
+  creationDate DateTime @default(now())
+  updationDate DateTime @updatedAt
+  
+}
