@@ -12,4 +12,7 @@ const Button = forwardRef(({ title, className, ...rest }, ref) => {
   );
 });
 
+Button.displayName = 'Button';
+
 export default Button;
+
