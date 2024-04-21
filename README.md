@@ -1,7 +1,7 @@
 
 # Bulletin Board App
 
-Welcome to the Moksha AI Bulletin Board App! This application is designed to serve as a digital representation of a bulletin board, where users can post public messages and advertisements.
+Welcome to the Bulletin Board App! This application is designed to serve as a digital representation of a bulletin board, where users can post public messages and advertisements.
 
 I have implemented all the points mentioned in the acceptance criteria as well as the bonus points. However, I did not implement authentication and authorization due to time constraints and other reasons, but the rest of the functionality is fully implemented.
 
