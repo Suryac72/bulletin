@@ -10,7 +10,7 @@ export default function Home({data}) {
 }
 
 export const getServerSideProps = async () => {
-  const query = await fetch('http://localhost:3000/api/bulletins');
+  const query = await fetch('https://bulletin-app.vercel.app/api/bulletins');
   const response = await query.json();
   return {
     props: {

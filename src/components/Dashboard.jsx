@@ -25,7 +25,7 @@ const Dashboard = ({ bulletins }) => {
       setValue("query", event.target.value);
       const query = watch("query");
       const response = await fetch(
-        `http://localhost:3000/api/search?query=${query}`
+        `https://bulletin-app.vercel.app/api/search?query=${query}`
       );
       const searchResults = await response.json();
       setSearchResults(searchResults.bulletins);
